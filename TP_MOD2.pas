@@ -4,7 +4,7 @@ var
 begin
   write('Masukkan bilangan pertama: ');
   readln(a);
-  write('Masukkan bilangan kedua: ');
+  write('Masukkan bilangan kedua  : ');
   readln(b);
   write('Masukkan bilangan ketiga: ');
   readln(c);
