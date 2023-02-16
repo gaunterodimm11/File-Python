@@ -1,0 +1,36 @@
+2.	Bunga majemuk (compound interest) umum diterapkan dalam perbankan. Sejumlah uang yang disimpan di bank diberikan suku bunga SB persen per tahun.
+Tabel dibawah adalah contoh untuk uang simpanan1.000.000 rupiah dengan suku bunga SB=10% pertahun selama N=5 tahun.
+
+Uang pada tahun ke-N	Perolehan bunga tahun ke-N	Tahun ke-N
+Rp. 1.100.000	        Rp. 100.000	                    1
+Rp. 1.210.000	        Rp. 110.000	                    2
+Rp. 1.331.000	        Rp. 121.000	                    3
+Rp. 1.464.100	        Rp. 133.100	                    4
+Rp. 1..610.510	        Rp. 146.410	                    5
+
+a.Buat program BungaTahunan yang menghitung uang tersimpan (nilai awal 1000.000 rupiah) dengan suku bunga SB selama periode N tahun. Input program adalah SB dan N. 
+Program menghasilkan output uang diakhir tiap periode, bunga periode tersebut, dan tahun periode (seperti pada contoh tabel diatas).
+Contoh input (cetak tebal (bold) adalah input):
+Suku bunga = 0.1
+Periode = 5
+		Contoh output:
+			Uang pada tahun ke-1 Rp1100000 dengan bunga Rp100000
+			Uang pada tahun ke-2 Rp1210000 dengan bunga Rp110000
+			Uang pada tahun ke-3 Rp1331000 dengan bunga Rp121000
+			Uang pada tahun ke-4 Rp1464100 dengan bunga Rp133100
+			Uang pada tahun ke-5 Rp1610510 dengan bunga Rp146410
+
+Penjelasan: Akhir tahun pertama mendapat bunga 0.1 dari uang semula sebesar Rp. 1000.000, yaitu Rp. 100.000, sehingga diakhir tahun pertama uang total dengan 
+bunga adalah Rp. 1.100.000. Hal yang sama dilakukan untuk tahun-tahun berikutnya, sehingga tahun kedua diperoleh Rp. 1.210.000
+
+
+b. Buat program TargetKapital yang mencari berapa periode yang dibutuhkan untuk mendapatkan X kali lipat uang semula, jika diberikan suku bunga SB. Input program adalah SB dan X. 
+Program menghasilkan output jumlah periode yang diperlukan untuk mencapai nilai uang tersebut.
+Contoh input (cetak tebal (bold) adalah input):
+Suku bunga = 0.1
+Target = 1.5
+		Contoh output:
+	Pada tahun ke-5 uang akan mencapai target 1.5x, yaitu Rp1610510
+
+Penjelasan: Pada tahun ke-5 nilai uang yang diperoleh, sebesar Rp1610510 sudah melebihi 1.5, yaitu nilai uang terakhir/nilai uang semula, yaitu 1610510/1000000=1.6105 
+yang lebih besar dari 1.5.
