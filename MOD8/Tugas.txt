@@ -1,0 +1,73 @@
+1. Buat program yang menerima masukan n kata dan menyimpannya dalam sebuah array. Program kemudian menerima masukan sebuah huruf dan menampilkan semua kata pada array yang diawali huruf tersebut. Kapasitas array adalah 20, sehingga 1 ≤ n ≤ 20.
+Contoh (yang bergaris bawah adalah input):
+7			{input n}
+uti			
+senang
+belajar
+algoritma
+sambil
+makan
+ubi			
+u			{input huruf pertama}
+uti ubi		
+ 
+2. Diberikan data kehadiran pegawai dalam satu bulan sebagai berikut.
+NIK	Nama	Hari Hadir	Uang Makan Siang
+1318aaa	    Peg_aaa	25	    ?
+1318aab	    Peg_aab	23	    ?
+...	...	    ...	...
+1318zzz	    Peg_zzz	24	    ?
+Perlu dihitung uang makan siang yang akan diterima oleh masing-masing pegawai pada bulan tersebut, dimana uang makan siang per hari hadir adalah 20000.
+
+a.Lengkapi program berikut untuk menyelesaikan kasus di atas:
+Program HitungUangMakanSiang;
+type DPeg = record
+nik, nama: String;
+hariHadir: integer;
+uangMaksi: longint; 
+end;
+
+type TPeg = array [1..30] of DPeg;
+
+var
+tabPeg: TPeg;
+nPeg: integer;
+...
+
+procedure IsiData(n: integer; var ArrPeg: TPeg);
+{I.S. Belum terdefinisi data kehadiran pegawai
+ F.S. Terdefinisi tabel kehadiran n pegawai yang terdiri atas: 
+      nik, nama, dan hari hadir, dari masukan user }
+var
+	...
+begin
+	...
+end;
+
+procedure HitungUangMaksi(n: integer; var ArrPeg: TPeg);
+{I.S. Tabel kehadiran pegawai terdefinisi
+F.S. Atribut uang makan siang untuk masing-masing pegawai pada 
+     tabel kehadiran pegawai telah terhitung. }
+var
+	...
+begin
+	...
+end;
+begin
+{Panggil prosedur untuk mengisi data kehadiran 5 pegawai}
+...
+{Panggil prosedur untuk menghitung uang makan siang setiap pegawai}
+...
+{Tampilkan uang makan siang setiap pegawai}
+...
+end.	
+b.Compile lalu jalankan programnya. Masukan data pegawai sebagai berikut, kemudian catat keluarannya! Sertakan screenshotnya.
+
+NIK	Nama	Hari Hadir	Output Uang Makan Siang
+1318aaa	    Peg_aaa	25	    ?
+1318aab	    Peg_aab	23	    ?
+1318aac	    Peg_aac	23	    ?
+1318aad	    Peg_aad	24	    ?
+1318aae	    Peg_aae	25	    ?
+
+ 
