@@ -1,0 +1,32 @@
+1. Buatlah program LatihanKetik yang menerima input 2 buah bilangan acak yang dinputkan user secara terus menerus. Proses input program akan berhenti apabila user menginputkan dua buah bilangan ganjil bersamaan. Format tampilan harus seperti contoh sesi interaksi berikut ini (tulisan yang bergaris bawahadalah input):
+Bilangan 1: 12
+Bilangan 2: 3
+
+Bilangan 1: 2
+Bilangan 2: 8
+
+Bilangan 1: -3
+Bilangan 2: 3
+
+Program Selesai
+
+=========================================
+
+2. Penyu hijau (Chelonia mydas) merupakan salah satu binatang yang terancam punah. Perkembang-biakan penyu ini adalah dengan bertelur. Ternyata cara bertelur penyu hijau dapat dijelaskan dengan aturan berikut:
+-Hanya penyu betina yang menghasilkan telur.
+-Setelah penyu berumur diatas 35 tahun baru dapat menghasilkan telur.
+-Jumlah telur yang dihasilkan per tahun dari seekor penyu mengikuti rumus berikut:
+Jumlah Telur=1/berat×(1+berat/1000)^(umur/2)
+
+Buatlah program yang menerima input sejumlah data penyu berupa umur, berat, dan jenis kelamin dari penyu. Kemudian tampilkan jumlah telur yang dihasilkan, dan diakhir program tampilkan jumlah keseluruhan telur penyu seperti contoh yang diberikan:
+
+Format tampilan harus seperti contoh sesi interaksi berikut ini (tulisan yang bergaris bawah adalah input):
+
+Jumlah Penyu: 3
+Penyu 1 (umur,berat,Jenis kelamin): 40 500 jantan
+Penyu 1 tidak menghasilkan telur
+Penyu 2 (umur,berat,Jenis kelamin): 20 600 betina
+Penyu 2 menghasilkan 0 telur/tahun
+Penyu 3 (umur,berat,Jenis kelamin): 50 700 betina 
+Penyu 3 menghasilkan 824 telur/tahun
+Jumlah telur penyu adalah 824
